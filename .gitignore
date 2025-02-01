@@ -169,3 +169,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore data files to avoid git clutter. Data should only be stored locally
+products/
+ignored_data/
+api_key.json
